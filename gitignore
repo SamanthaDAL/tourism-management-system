@@ -1,0 +1,18 @@
+# Local / machine-specific environment
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local copies of credentials and backups
+*credentials*.txt
+*.bak
+*.sql.gz
+
+# Dependencies, if added later
+vendor/
+node_modules/
